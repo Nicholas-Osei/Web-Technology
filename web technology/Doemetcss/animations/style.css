@@ -1,0 +1,63 @@
+.Trig
+{
+    height: 300px;
+    width: 200px;
+    background-color:green;
+    animation: myanime 2s ease-in-out 0s infinite;
+
+
+}
+.txt
+{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation: myanime1 2s ease-in-out 0s infinite;
+}
+@keyframes myanime
+{
+
+from
+{
+    width: 200px
+}
+to 
+{
+    width : 1500px;
+    background-color : blue;
+}
+}
+@keyframes myanime1
+{
+
+from
+{
+    width: 200px
+}
+to
+{
+    width : 1500px;
+    background-color : pink;
+}
+}
+.third
+{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    animation: myanime2 2s ease-in-out 0s infinite;
+
+}
+@keyframes myanime2
+{
+
+from
+{
+    width: 50px
+}
+to
+{
+    width : 1500px;
+    background-color :yellow;
+}
+}

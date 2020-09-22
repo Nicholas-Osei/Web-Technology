@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .first
+        {
+            background-color: green;
+           
+        }
+        .main
+        {
+            background-color:yellow;
+            
+        }
+        .derde
+        {
+            background-color: gray;
+            
+        }
+        /*start tablet design*/
+        @media(min-width: 720px)
+        {
+            .first
+            {
+                width: 30%;
+                float: left;
+            }
+            .main
+            {
+                width :70%;
+                float: left;
+
+            }
+            .derde
+            {
+                width: 70%;
+                float: right;
+            }
+        }
+        /*start tablet design*/
+        @media(min-width: 1024px)
+        {
+            .main
+            {
+                width: 50%;
+            }
+            .derde
+            {
+                width :20%;
+
+            }
+            
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="first"> 
+        <ul>
+            <li> <a href="#">link 1</a></li>
+            <li> <a href="#">link 2</a></li>
+            <li> <a href="#">link 3</a></li>
+        </ul> </div>
+    <div class="main">
+        <h1>Main heading here</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quo voluptas minima quam itaque placeat sapiente facilis est adipisci totam? Obcaecati molestias atque doloremque neque porro quo laboriosam animi quaerat?</p>
+    </div>
+    <div class="derde">
+        <h2> related info</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt illo repellendus vitae vel sequi voluptatem, rem commodi pariatur reiciendis, ipsum enim, molestias dolore consequuntur. Quam ex eos culpa ducimus perspiciatis.</p>
+    </div>
+</body>
+</html>

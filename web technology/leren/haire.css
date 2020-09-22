@@ -1,0 +1,76 @@
+header{
+ 
+    width: auto;
+    border: 1000% solid black;
+
+}
+h1{
+    text-align: center;
+    width: 300px;
+    /* height: 10px; */
+    float: left;
+    margin: 0;
+    padding: 1%;
+
+
+}
+ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.h{
+    display: inline; 
+    padding: 2%;
+}
+div
+{
+    display: inline;
+}
+img.main
+{
+    padding: 5%;
+}
+p
+{
+    width: 300px;
+    text-align: center;
+}
+.underline
+{
+    text-decoration: underline;
+}
+.lol
+{
+
+  float: left;
+  padding: 1%;
+  margin: auto;
+}
+.foot
+{
+    padding: 5%;
+    float: left;
+    margin: 5%;
+    
+}
+.hm
+{
+   padding: 5%;
+}
+footer
+{
+    
+    clear: both;
+    border: 1% solid black;
+    background-color: blue;
+}
+@media(min-width:700px)
+{
+    body
+    {
+        background: red;
+    }
+}
+

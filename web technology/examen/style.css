@@ -1,0 +1,177 @@
+   
+
+        /* reeds gegeven: de kleuren van de vier vlakken onderaan de pagina */
+
+        .figuur1 >div:nth-child(1) {background-color: #56E39F;}
+        .figuur1 >div:nth-child(2) {background-color: #59C9A5;}
+        .figuur1 >div:nth-child(3) {background-color: #5B6C5D;}
+        .figuur1 >div:nth-child(4) {background-color: #27476E;} 
+        /* alle kleuren voor dit vlak: #56E39F #59C9A5 #5B6C5D #27476E*/
+        
+        .figuur2 >div:nth-child(1) {background-color: #56E39F;}
+        .figuur2 >div:nth-child(2) {background-color: #C1292E;}
+        .figuur2 >div:nth-child(3) {background-color: #235789;}
+        .figuur2 >div:nth-child(4) {background-color: #F0A202;}
+        /* alle kleuren voor dit vlak: #F1D302 #C1292E #235789 #F0A202 */
+        
+        .figuur3 >div:nth-child(1) {background-color: #B3001B;}
+        .figuur3 >div:nth-child(2) {background-color: #F4E04D;}
+        .figuur3 >div:nth-child(3) {background-color: #54F2F2;}
+        .figuur3 >div:nth-child(4) {background-color: #5EB1BF;}
+        /* alle kleuren voor dit vlak: #B3001B #F4E04D #54F2F2 #5EB1BF */
+        
+        .figuur4 >div:nth-child(1) {background-color: #FF715B;}
+        .figuur4 >div:nth-child(2) {background-color: #30332E;}
+        .figuur4 >div:nth-child(3) {background-color: #62BBC1;}
+        .figuur4 >div:nth-child(4) {background-color: #EC058E;}
+        /* alle kleuren voor dit vlak: #FF715B #30332E #62BBC1 #EC058E */
+        /* einde van de gegeven kleuren van de vlakken */
+header
+{
+    background-color: white;
+    border-top: 1% lightslategray;
+    height: 200px;
+    
+}
+header h1
+{
+ display: none;
+}
+header ul
+{
+    float: left;
+    padding-right: 45%;
+}
+header img
+{
+  height: 100px;
+  width: 100px;
+}
+li
+{
+    list-style-type: none;
+}
+
+.sectie1 .figuur1
+{
+    height: 200px;
+    background-color: #27476E;
+    margin: 5%;
+}
+.sectie2 .figuur2
+{
+    height: 200px; 
+    background-color: #F0A202;
+    margin: 5%;
+}
+.sectie3 .figuur3
+{
+     height: 200px; 
+    background-color: #5EB1BF;
+    margin: 5%;
+}
+.sectie4 .figuur4
+{
+    height: 200px;
+    background-color: #EC058E;
+    margin: 5%;
+}
+footer
+{
+    background-image: url(Climate-change.jpg);
+    height: 50px;
+    background-size: cover;
+    background-position: center; 
+}
+p
+{
+    display: none;
+}
+
+@media(min-width: 700px)
+{
+    header ul
+{
+    float: left;
+    padding-right: 65%;
+}
+    main
+    {
+        display: grid;
+        grid-template-columns: auto auto;
+  
+    }
+    .figuur1, .figuur2, .figuur3, .figuur4
+    {
+        width: 300px;
+        height: 500px;
+        display: grid;
+        grid-template-columns: auto auto ;
+        margin: 5%;
+    }
+    .figuur1 >div:nth-child(1) 
+    {
+       
+        background-color: #56E39F;
+        grid-row: 1 / 4;
+    }
+    .figuur2 >div:nth-child(1) 
+    {
+        background-color: #56E39F;
+        grid-row-end:  3/ 3;
+    }
+    .figuur3 >div:nth-child(1) 
+    {   background-color: #C1292E;
+        grid-row:  1/ 4;
+    }
+
+    
+    
+}
+@media(min-width: 1000px)
+{
+    main
+    {
+        margin: 0%;
+        display: flex;
+        justify-content: space-evenly;
+  
+    }
+    
+    .figuur1 >div:nth-child(1) 
+    {
+        background-color: #56E39F;
+        grid-column:  1/ 4;
+    
+    }
+    .figuur1 >div:nth-child(2) 
+    {
+       
+        background-color: #56E39F;
+        grid-row:  1/ 4;
+    }
+    .figuur2 
+    {
+       display: grid;
+       grid-template-columns: auto auto auto auto;
+    }
+    .figuur3 
+    {   
+        display: grid;
+        grid-template-columns: auto ; 
+        
+    }
+    p
+    {
+        text-align: center;
+        display: block;
+    }
+    a:hover
+    {
+        transform: all 
+    }
+    
+       
+    
+}
+

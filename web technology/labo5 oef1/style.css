@@ -1,0 +1,27 @@
+.linkerkolom
+{
+    border:1px solid black;
+    padding: 1px;
+    margin: 5px;
+    width: 300px;
+    float: left;
+   
+}
+.rechtkolom
+{
+    border:1px solid black;
+    padding: 2px;
+    margin: 5px;
+    width: 250px;
+    float: right;
+
+}
+.footer
+{
+    border:1px solid black;
+    padding: 5px;
+    margin  : 5px;
+    clear:both;
+     
+
+}

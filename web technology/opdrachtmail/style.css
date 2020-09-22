@@ -1,0 +1,109 @@
+body {
+    background-color: lightgrey;
+    
+}
+
+.kubus {
+    width: 600px;
+    height: 600px;
+    background-color: yellow;
+    margin: 50px auto 10px auto;
+}
+
+p {
+    width: 500px;
+    margin: auto;
+    text-align: center; 
+    font-family: helvetica;
+    color: #888;
+    font-size: 0.8em;
+}
+
+h2 {
+    font-family: helvetica;
+    font-size: 2em;
+    margin: 150px auto;
+    width: 90px;
+    text-align: center;
+    display: none;
+}
+@media(min-width:320px)
+{
+    .kubus
+    {
+        width: 50px;
+        height: 50px;
+        background-color:red;
+        font-size: 4.8em;
+    }
+    p
+    {
+        font-size: 4.8em;
+    }
+}
+
+@media(min-width:420px)
+{
+    .kubus
+    {
+        width: 250px;
+        height: 250px;
+        background-color: blue;
+        
+    }
+    p
+    {
+        font-size: 5.8em;
+    }
+}
+
+@media(min-width:520px)
+{
+    .kubus
+    {
+        width: 350px;
+        height: 350px;
+        background-color: orange;
+        
+    }
+    p
+    {
+        font-size: 0.5em;
+    }
+}
+
+@media(min-width:620px)
+{
+    .kubus
+    {
+        width: 450px;
+        height: 450px;
+        background-color:pink;
+       
+    }
+    p
+    {
+        font-size: 0.3em;
+    }
+}
+@media(min-width:800px)
+{
+    .kubus
+    {
+        width: 600px;
+        height: 600px;
+        background-color: green;
+        
+    }
+    p
+    {
+        font-size: 0.1em;
+    }
+}
+@media(min-width: 1200px)
+{
+    .kubus
+    {
+        display: none;
+    }
+}

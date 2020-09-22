@@ -1,0 +1,53 @@
+body{
+    background-color: pink;
+
+}
+
+p{
+    margin:0;
+}
+.nav
+{
+    margin: 10px;
+    padding: 5px;
+}
+.head
+{
+    background-color: deeppink;
+    margin: auto;
+    padding:1%;
+}
+.middle{
+    background-color: pink;
+    float: left;
+    border: 1px solid rgb(241, 151, 166);
+    width: 498px;
+    margin-top: 0%;
+    padding: 0%;
+
+}
+.footer{
+    background-color: lightcoral;
+    padding: 5px;
+    border: 1px solid lightcoral;
+    clear: both;
+    margin: 0 auto;
+
+}
+nav{
+    background-color: darkmagenta;
+    width: 45px;
+    height: 180px;
+    border: 1px solid darkmagenta;
+    padding: 5px;
+    float: right;
+    text-align: center;
+  
+    
+    
+
+}
+
+a {
+    
+}

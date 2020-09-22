@@ -1,0 +1,86 @@
+header
+{
+    background: cyan;
+    color: white;
+    height: 100px;
+}
+ul
+{
+    display: flex;
+    text-decoration-style: none;
+    padding-top: 2.5%;
+    
+
+}
+li 
+{
+    list-style-type: none;
+    padding-right: 3%;
+    text-decoration-style: none;
+    height: 50px;
+    
+    
+}
+li a 
+{
+    color: white;
+    text-decoration: none;
+    border: 1px solid black;
+    
+}
+
+/* div
+{
+    height: 100px;
+    width: 100px;
+    background: red;
+    animation: lol 1s ease-in-out infinite ;    
+    
+}
+@keyframes lol{
+       from
+       {
+           transform: scale(1);
+
+       }
+        to
+        {
+            transform: scale(2);
+            opacity: 1;
+            background-color: aqua;
+        }
+
+    } */
+
+.koffie
+{
+    background: black;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    z-index: 10;
+}
+.koffie .imag
+{
+    overflow: hidden;
+}
+img
+{
+    height:100px ;
+    width: 100px;
+    display: block;
+    animation: lol 8s ease infinite;
+    z-index: 10;
+
+    
+}
+@keyframes lol {
+    0%{
+        transform: translateX(-80px);
+    }
+    
+    100%{
+        transform:translateX(200px);
+    }
+    
+}
